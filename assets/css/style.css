@@ -1,6 +1,29 @@
+body {
+    background: scroll url(https://www.toptal.com/designers/subtlepatterns/patterns/zig%20zag%20wool.png);
+}
+
+h1 {
+    font-size: 80px;
+}
+.container {
+    background: white;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.jumbotron {
+    background: white;
+}
+.col-4 {
+    margin-left: 2rem;
+}
 img {
     margin-right: 4rem;
 }
 h4 {
     padding-bottom: 40px;
+    font-size: 30px;
 }
+.col-11 {
+    margin: 2rem;
+}
+

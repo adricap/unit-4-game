@@ -19,7 +19,7 @@ $(document).ready(function() {
     function reset() {
 
 //random number - target score between 19 and 120
-        var targetScore = Math.floor(Math.random() * 101) + 19;
+        targetScore = Math.floor(Math.random() * 101) + 19;
         console.log("Target Score: " + targetScore);
         
 //give a crystals value between 1 - 12 - show on console log crystal val
@@ -49,11 +49,13 @@ $(document).ready(function() {
 // check for win or lose
         if  (currentScore > targetScore) {
             losses++;
+            alert("YOU LOSE!!");
             $("#lossesTxt").html(losses);
             reset();
         }
         else if (currentScore === targetScore) {
             wins++
+            alert("YON WON!!");
             $("#winsTxt").html(wins);
             reset();
         }
